@@ -17,6 +17,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+	</style>
+
 	<?php wp_head(); ?>
 </head>
 
@@ -41,6 +45,8 @@
 			$mediaclature_description = get_bloginfo( 'description', 'display' );
 			if ( $mediaclature_description || is_customize_preview() ) :
 				?>
+				<hr />
+
 				<p class="site-description"><?php echo $mediaclature_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->

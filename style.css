@@ -86,6 +86,7 @@ body {
  */
 main {
 	display: block;
+	min-height: 100vh;
 }
 
 /**
@@ -472,7 +473,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-	background: #fff;
+	background-color: rgba(218, 218, 218, 1);
 }
 
 hr {
@@ -747,6 +748,16 @@ textarea {
 	display: block;
 }
 
+#page {
+	background-color: rgba(255, 227, 172, 1);
+	border-style: solid;
+	border-width: 0 1px;
+	border-color: rgba(74, 74, 74, 1);
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 1rem;
+}
+
 .post,
 .page {
 	margin: 0 0 1.5em;
@@ -967,3 +978,44 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+/* Additional
+--------------------------------------------- */
+
+.site-header {
+	padding-top: 2rem;
+}
+
+.site-branding {
+	background-color: rgba(0, 0, 0, 1);
+	border: 5px solid #000;
+	color: #fff;
+	font-family: 'Cinzel', serif;
+	margin: auto;
+	outline: 1px solid rgba(255, 255, 255, 1);
+	outline-offset: -8px;
+	text-align: center;
+	width: 70%;
+}
+
+.site-branding a {
+	color: #fff;
+	font-size: 3.5rem;
+	text-decoration: none;
+}
+
+.site-branding .site-title {
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.site-branding hr {
+	margin: 0 auto;
+	padding: 0;
+	width: 28%;
+}
+
+.site-branding .site-description {
+	font-weight: 400;
+}
+
