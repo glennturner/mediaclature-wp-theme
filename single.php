@@ -8,6 +8,7 @@
  */
 
 get_header();
+get_sidebar();
 ?>
 
 	<main id="primary" class="site-main">
@@ -36,5 +37,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();
