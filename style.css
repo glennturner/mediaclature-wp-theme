@@ -1120,6 +1120,10 @@ h1.entry-title,
 	color: rgba(0, 0, 0, 1);
 }
 
+.edit-link {
+	display: block;
+}
+
 /**
 * Mobile adjustments
 */
