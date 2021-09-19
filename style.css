@@ -1115,7 +1115,7 @@ h1.entry-title,
 /**
 * Mobile adjustments
 */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 	.main-navigation {
 		border: 0;
 		text-align: right;
@@ -1126,6 +1126,6 @@ h1.entry-title,
 	}
 
 	.site-branding a {
-		font-size: 2rem;
+		font-size: 1rem;
 	}
 }
