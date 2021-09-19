@@ -416,6 +416,8 @@ h4,
 h5,
 h6 {
 	clear: both;
+	font-family: 'Cinzel', serif;
+	text-align: center;
 }
 
 p {
@@ -534,11 +536,11 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: rgba(48, 48, 48, 1);
 }
 
 a:visited {
-	color: #800080;
+	color: rgba(114, 114, 114, 1);
 }
 
 a:hover,
@@ -649,7 +651,9 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
+	color: #000;
 	display: block;
+	font-family: 'Cinzel', serif;
 	width: 100%;
 }
 
@@ -658,6 +662,12 @@ textarea {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+}
+
+.main-navigation ul,
+.main-navigation ul li {
+	margin: auto;
+	text-align: right;
 }
 
 .main-navigation ul ul {
@@ -749,7 +759,7 @@ textarea {
 }
 
 #page {
-	background-color: rgba(247, 242, 222, 1);
+	background-color: rgba(241, 238, 225, 1);
 	border-style: solid;
 	border-width: 18px 1px 0 1px;
 	border-right-color: rgba(74, 74, 74, 1);
@@ -778,6 +788,10 @@ textarea {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.entry-title {
+	text-align: center;
 }
 
 /* Comments
@@ -984,16 +998,12 @@ textarea {
 /* Additional
 --------------------------------------------- */
 
-.site-header {
-	padding-top: 1.5rem;
-}
-
 .site-branding {
 	background-color: rgba(0, 0, 0, 1);
 	border: 5px solid #000;
 	color: #fff;
 	font-family: 'Cinzel', serif;
-	margin: auto;
+	margin: 1.5rem auto;
 	outline: 1px solid rgba(255, 255, 255, 1);
 	outline-offset: -8px;
 	text-align: center;
@@ -1019,6 +1029,48 @@ textarea {
 
 .site-branding .site-description {
 	font-weight: 400;
+}
+
+.entry-title {
+	margin-bottom: 0;
+}
+
+.entry-meta {
+	font-family: 'Cinzel', serif;
+	font-size: larger;
+	text-align: center;
+}
+
+h1.entry-title,
+.main-navigation,
+.page-title {
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px 0;
+}
+
+h1.entry-title,
+.page-title {
+	background-color: #fff;
+}
+
+.widget_search {
+	margin-top: 1rem;
+}
+
+.widget_search input {
+	background-color: rgba(195, 195, 195, 1);
+}
+
+.widget_search button,
+.widget_search input[type=submit] {
+	background-color: rgba(0, 0, 0, 1);
+	font-family: 'Cinzel', serif;
+	font-weight: 500;
+}
+
+.wp-block-search__label {
+	display: none;
 }
 
 .wp-block-embed.is-type-video {
