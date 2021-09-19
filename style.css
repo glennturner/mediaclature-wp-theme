@@ -1133,7 +1133,8 @@ h1.entry-title,
 		width: 95%;
 	}
 
-	.site-branding a {
+	.site-branding a,
+	.site-branding .site-description {
 		font-size: 2rem;
 	}
 }
