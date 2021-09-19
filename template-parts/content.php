@@ -22,8 +22,11 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				mediaclature_posted_on();
+				$archive_year  = get_the_time('Y');
+				$archive_month = get_the_time('m');
+				$archive_day   = get_the_time('d');
 				?>
+				<a href="<?php echo get_day_link( $archive_year, $archive_month, $archive_day); ?>"><?php the_date(); ?></a>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
