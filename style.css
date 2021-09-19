@@ -1107,7 +1107,12 @@ h1.entry-title,
 	padding-bottom: 1rem;
 }
 
+.entry-footer {
+	min-height: 1rem;
+}
+
 .entry-footer .cat-links {
+	display: inline-block;
 	float: left;
 }
 
