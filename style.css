@@ -1136,4 +1136,8 @@ h1.entry-title,
 	.site-branding a {
 		font-size: 2rem;
 	}
+
+	.site-description {
+		max-width: 80%;
+	}
 }
