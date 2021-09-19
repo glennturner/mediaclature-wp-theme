@@ -1105,7 +1105,10 @@ h1.entry-title,
 	margin-bottom: 1rem;
 	padding-top: 0.5rem;
 	padding-bottom: 1rem;
-	text-align: center;
+}
+
+.entry-footer .cat-links {
+	float: left;
 }
 
 .main-navigation a {
@@ -1115,7 +1118,7 @@ h1.entry-title,
 /**
 * Mobile adjustments
 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
 	.main-navigation {
 		border: 0;
 		text-align: right;
