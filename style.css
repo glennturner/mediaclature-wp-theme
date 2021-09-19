@@ -1138,7 +1138,8 @@ h1.entry-title,
 	}
 
 	.site-description {
+		margin-bottom: 1rem;
 		margin-left: 1rem;
-		margin-right: 1rem;
+		margin-right: t: 1rem;
 	}
 }
