@@ -17,8 +17,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<style>
+	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+		body {
+			background-image: url(
+				"<?php echo get_template_directory_uri(); ?>/assets/images/prism.png"
+			);
+		}
 	</style>
 
 	<?php wp_head(); ?>
