@@ -1138,6 +1138,6 @@ h1.entry-title,
 	}
 
 	.site-description {
-		max-width: 90%;
+		margin: 0 1rem;
 	}
 }
