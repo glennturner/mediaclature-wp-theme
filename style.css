@@ -1046,7 +1046,6 @@ textarea {
 	text-decoration: none;
 }
 
-h1.entry-title,
 .main-navigation,
 .page-title,
 .post {
@@ -1055,7 +1054,6 @@ h1.entry-title,
 	border-width: 1px 0;
 }
 
-h1.entry-title,
 .page-title {
 	background-color: #fff;
 }
@@ -1066,7 +1064,7 @@ h1.entry-title,
 }
 
 .widget_search input {
-	background-color: rgba(230, 230, 230, 1);
+	background-color: rgba(239, 238, 236, 1);
 }
 
 .widget_search button,
