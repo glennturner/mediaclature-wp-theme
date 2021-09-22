@@ -517,6 +517,7 @@ dd {
 embed,
 iframe,
 object {
+	margin: auto;
 	max-width: 100%;
 }
 
