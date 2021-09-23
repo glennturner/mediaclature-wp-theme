@@ -517,8 +517,7 @@ dd {
 embed,
 iframe,
 object,
-figure,
-.wp-block-image {
+figure{
 	margin: auto;
 	max-width: 100%;
 }
@@ -1090,7 +1089,8 @@ textarea {
 .wp-block-search__label {
 	display: none;
 }
-
+,
+.wp-block-image,
 .wp-block-embed.is-type-video {
 	margin: auto;
 	text-align: center;
