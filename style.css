@@ -516,7 +516,8 @@ dd {
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
-object {
+object,
+.wp-block-image {
 	margin: auto;
 	max-width: 100%;
 }
