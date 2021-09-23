@@ -1092,6 +1092,7 @@ textarea {
 ,
 .wp-block-image,
 .wp-block-embed.is-type-video {
+	display: block;
 	margin: auto;
 	text-align: center;
 }
