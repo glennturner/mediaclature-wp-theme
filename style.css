@@ -516,8 +516,7 @@ dd {
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
-object,
-figure{
+object {
 	margin: auto;
 	max-width: 100%;
 }
@@ -1089,10 +1088,8 @@ textarea {
 .wp-block-search__label {
 	display: none;
 }
-,
-figure.wp-block-image image,
+
 .wp-block-embed.is-type-video {
-	display: block;
 	margin: auto;
 	text-align: center;
 }
