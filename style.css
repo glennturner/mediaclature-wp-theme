@@ -854,6 +854,11 @@ textarea {
 	text-align: center;
 }
 
+figcaption {
+	font-size: smaller;
+	text-align: center;
+}
+
 /* Galleries
 --------------------------------------------- */
 .gallery {
