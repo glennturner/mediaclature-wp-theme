@@ -20,7 +20,7 @@
 			if ( $user ):
 			?>
 			<span class="author-info">
-				Authored by <a href="<?php esc_html_e( $user->url ); ?>" rel="external"><?php
+				Authored by <a href="mailto:<?php esc_html_e( $user->user_email ); ?>" rel="external"><?php
 
 					esc_html_e( $user->first_name . ' ' . $user->last_name );
 				?></a>
