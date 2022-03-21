@@ -795,11 +795,8 @@ textarea {
 
 .entry-title,
 .post-thumbnail {
-	text-align: center;
-}
-
-.post-thumbnail {
 	display: block;
+	text-align: center;
 	width: 100%;
 }
 
