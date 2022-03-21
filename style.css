@@ -794,11 +794,11 @@ textarea {
 }
 
 .entry-title,
-.post-thumbnail {
+.post-thumbnail img {
 	text-align: center;
 }
 
-.post-thumbnail {
+.post-thumbnail img {
 	margin: auto;
 }
 
