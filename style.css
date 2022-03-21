@@ -794,12 +794,13 @@ textarea {
 }
 
 .entry-title,
-.post-thumbnail img {
+.post-thumbnail {
 	text-align: center;
 }
 
 .post-thumbnail img {
 	margin: auto;
+	text-align: center;
 }
 
 /* Comments
