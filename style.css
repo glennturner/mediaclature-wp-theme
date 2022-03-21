@@ -798,6 +798,10 @@ textarea {
 	text-align: center;
 }
 
+.post-thumbnail {
+	margin: auto;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
