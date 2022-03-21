@@ -793,7 +793,8 @@ textarea {
 	margin: 0 0 1.5em;
 }
 
-.entry-title {
+.entry-title,
+.post-thumbnail {
 	text-align: center;
 }
 
