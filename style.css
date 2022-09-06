@@ -1139,6 +1139,19 @@ figcaption {
 	display: block;
 }
 
+.sp-wrap {
+	background-color: #000 !important;
+}
+
+.sp-head {
+	color: #fff !important;
+}
+
+.sp-body {
+	background-color: #eee !important;
+	color: #000;
+}
+
 /**
 * Mobile adjustments
 */
