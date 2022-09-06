@@ -1141,6 +1141,8 @@ figcaption {
 
 .sp-wrap {
 	background-color: #000 !important;
+	border-width: 6px 0 0 0;
+	border-top-color: rgba(212, 0, 0, 1);
 }
 
 .sp-head {
