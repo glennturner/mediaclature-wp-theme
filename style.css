@@ -1154,6 +1154,14 @@ figcaption {
 	color: #000;
 }
 
+.wp-embed {
+	background-color: #000 !important;
+}
+
+.entry-footer > span {
+	margin-right: 0.5em;
+}
+
 /**
 * Mobile adjustments
 */

@@ -30,6 +30,12 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<style type="text/css">
+	.wp-embedded-content {
+		background-color: #000 !important;
+	}
+</style>
+
 <?php wp_footer(); ?>
 
 </body>
