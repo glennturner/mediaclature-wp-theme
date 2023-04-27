@@ -1067,7 +1067,7 @@ figcaption {
 .post {
 	border-style: solid;
 	border-color:rgba(0, 0, 0, 1) !important;
-	border-width: 0 0 18px 0 !important;
+	border-width: 0 0 9px 0 !important;
 }
 
 blockquote {
