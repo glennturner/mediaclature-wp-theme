@@ -431,10 +431,6 @@ i {
 	font-style: italic;
 }
 
-blockquote {
-	margin: 0 1.5em;
-}
-
 address {
 	margin: 0 0 1.5em;
 }
@@ -1067,6 +1063,24 @@ figcaption {
 	border-color: #000;
 	border-style: solid;
 	border-width: 1px 0;
+}
+
+.post {
+	border-color:rgba(212, 0, 0, 1);
+	border-width: 0 0 18px 0;
+}
+
+blockquote {
+	background-color: #e3e3e3;
+	border: solid 6px rgba(212, 0, 0, 1);
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	padding: 0.5em 1em;
+}
+
+blockquote > p:first-child {
+	margin-top: 0;
 }
 
 .page-title {
