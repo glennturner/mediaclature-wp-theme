@@ -1083,6 +1083,10 @@ blockquote > p:first-child {
 	margin-top: 0;
 }
 
+blockquote > p {
+	margin-bottom: 0;
+}
+
 .page-title {
 	background-color: #fff;
 }
