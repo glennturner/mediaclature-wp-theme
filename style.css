@@ -1077,6 +1077,7 @@ blockquote {
 	border-right: 0px;
 	border-bottom: 0px;
 	padding: 0.5em;
+	text-align: justify;
 }
 
 blockquote > p:first-child {
