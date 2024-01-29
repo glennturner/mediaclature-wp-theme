@@ -62,4 +62,14 @@
 	<footer class="entry-footer">
 		<?php mediaclature_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+
+	<?php
+		if (
+			isset( $args[ 'i' ] ) &&
+			( $args[ 'i' ] == 0 || ( $args[ 'i' ] % 3 === 0 ) )
+		): ?>
+	<div class="newsletter-signup-embed">
+		<?php echo do_shortcode( '[mailpoet_form id="5"]' ); ?>
+	</div>
+	<?php endif; ?>
 </article><!-- #post-<?php the_ID(); ?> -->
