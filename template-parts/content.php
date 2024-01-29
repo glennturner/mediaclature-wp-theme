@@ -69,7 +69,7 @@
 			( $args[ 'i' ] == 0 || ( $args[ 'i' ] % 3 === 0 ) )
 		): ?>
 	<div class="newsletter-signup-embed">
-		<?php echo do_shortcode( '[mailpoet_form id="5"]' ); ?>
+		<?php echo do_shortcode( '[mailpoet_form id="2"]' ); ?>
 	</div>
 	<?php endif; ?>
 </article><!-- #post-<?php the_ID(); ?> -->
