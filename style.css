@@ -1100,7 +1100,7 @@ figcaption {
 	padding-top: 1rem;
 }
 
-.newsletter-signup-embed .mailpoet_form {
+.mailpoet_form {
 	margin: 0 auto;
 	width: 66% !important;
 }
@@ -1111,7 +1111,7 @@ form.mailpoet_form {
 
 }
 
-.newsletter-signup-embed a {
+.mailpoet_form a {
 	color: #fff;
 }
 
