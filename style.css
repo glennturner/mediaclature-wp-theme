@@ -1264,4 +1264,26 @@ input {
 		margin-left: 1rem;
 		margin-right: t: 1rem;
 	}
+
+	button.primary-mobile-menu {
+		width: 100%;
+	}
+
+	button.primary-mobile-menu,
+	button.primary-mobile-menu svg {
+		height: 3em;
+		width: 3em;
+		border: 0;
+		background-color: transparent;
+		margin-left: auto;
+		padding: 0;
+	}
+
+	#primary-menu {
+		margin-right: 0.5em;
+	}
+
+	#primary-menu li a:hover {
+		text-decoration: underline;
+	}
 }
