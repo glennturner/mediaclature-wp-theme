@@ -19,12 +19,15 @@
 
 			if ( $user ):
 			?>
-			<span class="author-info">
+			<div class="author-info">
 				Authored by <a href="mailto:<?php esc_html_e( $user->user_email ); ?>" rel="external"><?php
 
 					esc_html_e( $user->first_name . ' ' . $user->last_name );
 				?></a>
-			</span>
+			</div>
+			<div class="copyright">
+				&copy;2020-<?php echo date( 'Y' ); ?> Mediaclature
+			</div>
 			<?php endif; ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
