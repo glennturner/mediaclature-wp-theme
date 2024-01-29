@@ -214,6 +214,10 @@ textarea {
 	margin: 0;
 }
 
+input::placeholder,
+textarea::placeholder {
+	color: rgba(160, 160, 160, 1) !important;
+}
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -814,11 +818,20 @@ textarea {
 /* Widgets
 --------------------------------------------- */
 .widget {
-	margin: 0 0 1.5em;
+	margin: 0 0;
 }
 
 .widget select {
 	max-width: 100%;
+}
+
+.widget_block .wp-block-columns {
+	margin: 0 0;
+}
+
+.widget > p,
+.wp-block-column p {
+	display: none;
 }
 
 /* Media
@@ -930,6 +943,10 @@ figcaption {
 .infinity-end.neverending .site-footer {
 	display: block;
 }
+
+/* MailPoet
+--------------------------------------------- */
+
 
 /*--------------------------------------------------------------
 # Utilities
@@ -1061,6 +1078,10 @@ figcaption {
 .page-title {
 	border-color: #000;
 	border-style: solid;
+}
+
+.main-navigation,
+.page-title {
 	border-width: 1px 0;
 }
 
@@ -1068,6 +1089,41 @@ figcaption {
 	border-style: solid;
 	border-color:rgba(0, 0, 0, 1) !important;
 	border-width: 0 0 9px 0 !important;
+}
+
+.newsletter-signup-embed {
+	border-color:rgba(0, 0, 0, 1) !important;
+	border-width: 9px 0 0 0 !important;
+	border-style: solid;
+	border-bottom: 0;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
+.newsletter-signup-embed .mailpoet_form {
+	margin: 0 auto;
+	width: 66% !important;
+}
+
+form.mailpoet_form {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+
+}
+
+.newsletter-signup-embed a {
+	color: #fff;
+}
+
+.newsletter-signup-embed input[type=submit],
+.newsletter-signup-embed button[type=submit] {
+	font-family: 'Cinzel', serif !important;
+	font-size: 1.25rem !important;
+	font-weight: 500 !important;
+}
+
+.mailpoet_submit {
+	background-color: #d40000 !important;
 }
 
 blockquote {
@@ -1092,17 +1148,20 @@ blockquote > p {
 	background-color: #fff;
 }
 
-.widget_search {
+#secondary .widget {
 	clear: both;
-	margin-top: 1rem;
+	margin: 1.5rem 0 !important;
 }
 
-.widget_search input {
+input {
 	background-color: rgba(239, 238, 236, 1);
 }
 
+.mailpoet_submit,
 .widget_search button,
-.widget_search input[type=submit] {
+.widget_search input[type="submit"],
+.wp-block-search__inside-wrapper button,
+.wp-block-search__inside-wrapper input[type="submit"] {
 	background-color:rgba(0, 0, 0, 1);
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Cinzel', serif;

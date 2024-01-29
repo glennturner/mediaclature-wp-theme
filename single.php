@@ -14,10 +14,11 @@ get_sidebar();
 	<main id="primary" class="site-main">
 
 		<?php
+		$i = 0;
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', get_post_type() );
+			get_template_part( 'template-parts/content', get_post_type(), array( 'i' => $i ) );
 
 			the_post_navigation(
 				array(
@@ -30,10 +31,9 @@ get_sidebar();
 			if ( comments_open() || get_comments_number() ) :
 				comments_template();
 			endif;
-
+			$i += 1;
 		endwhile; // End of the loop.
 		?>
-
 	</main><!-- #main -->
 
 <?php
