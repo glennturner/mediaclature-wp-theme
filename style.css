@@ -1101,6 +1101,7 @@ figcaption {
 }
 
 .mailpoet_form {
+	border: 0 !important;
 	margin: 0 auto;
 	width: 66% !important;
 }
@@ -1111,7 +1112,8 @@ form.mailpoet_form {
 
 }
 
-.mailpoet_form a {
+.mailpoet_form a,
+.mailpoet_form p {
 	color: #fff;
 }
 
