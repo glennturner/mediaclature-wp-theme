@@ -721,7 +721,6 @@ textarea {
 }
 
 @media screen and (min-width: 37.5em) {
-
 	.menu-toggle {
 		display: none;
 	}
@@ -946,6 +945,58 @@ figcaption {
 /* MailPoet
 --------------------------------------------- */
 
+div.mailpoet_form,
+.mailpoet_form span {
+	font-family: 'Cinzel', serif !important;
+}
+
+.mailpoet_form a,
+.mailpoet_form p {
+	color: #fff;
+	font-size: 1rem !important;
+	font-weight: 400;
+}
+
+p.newsletter-signup-note,
+p.newsletter-signup-privacy {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p.newsletter-signup-p2 {
+	margin-bottom: 1rem !important;
+}
+
+.newsletter-signup-embed input[type=submit],
+.newsletter-signup-embed button[type=submit] {
+	font-family: 'Cinzel', serif !important;
+	font-size: 1.25rem !important;
+	font-weight: 500 !important;
+}
+
+.newsletter-signup-embed > div.mailpoet_form {
+	margin: 0 auto;
+	padding: 10px !important;
+	width: 66% !important;
+	border-top: 14px solid #d40000 !important;
+}
+
+.newsletter-signup-embed form.mailpoet_form {
+	border: 1px solid #fff !important;
+}
+
+.mailpoet_submit {
+	background-color: #d40000 !important;
+}
+
+.newsletter-signup-embed {
+	border-color: gba(0, 0, 0, 1) !important;
+	border-width: 9px 0 0 0 !important;
+	border-style: solid;
+	border-bottom: 0;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
 
 /*--------------------------------------------------------------
 # Utilities
@@ -1088,43 +1139,6 @@ figcaption {
 	border-style: solid;
 	border-color:rgba(0, 0, 0, 1) !important;
 	border-width: 0 0 9px 0 !important;
-}
-
-.newsletter-signup-embed {
-	border-color:rgba(0, 0, 0, 1) !important;
-	border-width: 9px 0 0 0 !important;
-	border-style: solid;
-	border-bottom: 0;
-	margin-top: 1rem;
-	padding-top: 1rem;
-}
-
-.mailpoet_form {
-	border: 0 !important;
-	margin: 0 auto;
-	width: 66% !important;
-}
-
-form.mailpoet_form {
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-
-}
-
-.mailpoet_form a,
-.mailpoet_form p {
-	color: #fff;
-}
-
-.newsletter-signup-embed input[type=submit],
-.newsletter-signup-embed button[type=submit] {
-	font-family: 'Cinzel', serif !important;
-	font-size: 1.25rem !important;
-	font-weight: 500 !important;
-}
-
-.mailpoet_submit {
-	background-color: #d40000 !important;
 }
 
 blockquote {
