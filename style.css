@@ -951,7 +951,7 @@ div.mailpoet_form,
 }
 
 .newsletter-signup-embed .mailpoet_form_form {
-	padding: 40px;
+	padding: 40px !important;
 }
 
 .mailpoet_form a,
