@@ -982,7 +982,10 @@ p.newsletter-signup-p2 {
 	margin: 0 auto;
 	padding: 10px !important;
 	width: 66% !important;
-	border-top: 14px solid #d40000 !important;
+	border-width: 14px 0 0 0 !important;
+	border-style: solid !important;
+	border-color: #d40000 !important;
+
 }
 
 .newsletter-signup-embed form.mailpoet_form {
