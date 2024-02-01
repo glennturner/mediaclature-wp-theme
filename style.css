@@ -950,6 +950,10 @@ div.mailpoet_form,
 	font-family: 'Cinzel', serif !important;
 }
 
+.newsletter-signup-embed .mailpoet_form_form {
+	padding: 40px;
+}
+
 .mailpoet_form a,
 .mailpoet_form p {
 	color: #fff;
