@@ -1263,6 +1263,11 @@ input {
 	margin-right: 0.5em;
 }
 
+.twitter-tweet-rendered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /**
 * Mobile adjustments
 */
