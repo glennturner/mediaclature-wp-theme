@@ -497,6 +497,7 @@ ul {
 
 ol {
 	list-style: decimal;
+	padding: 0;
 }
 
 li > ul,
